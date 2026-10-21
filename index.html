@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navii — Victor Navejar</title>
+<meta name="description" content="Grammy-winning producer, songwriter and DJ building local-first AI, film and live events.">
+<meta property="og:title" content="Navii — Victor Navejar">
+<meta property="og:description" content="Grammy-winning producer, songwriter and DJ building local-first AI, film and live events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d0c0b;
+    --surface: #171513;
+    --line: #2a2622;
+    --text: #efe9e1;
+    --muted: #a39a8f;
+    --accent: #d8a95b;
+    --accent-ink: #1a1408;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f7f3ed; --surface: #fffdf9; --line: #e4dccf;
+      --text: #1d1a16; --muted: #6b6258; --accent: #9a6a1c; --accent-ink: #fffdf9;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 400 17px/1.6 Inter, system-ui, -apple-system, sans-serif;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 88px 0 56px; border-bottom: 1px solid var(--line); }
+  .kicker { color: var(--accent); font-weight: 600; letter-spacing: .14em; text-transform: uppercase; font-size: 13px; }
+  h1 { font: 600 clamp(44px, 9vw, 92px)/1 Fraunces, Georgia, serif; margin: 14px 0 8px; letter-spacing: -.02em; }
+  h1 .sub { display: block; font-size: .32em; font-weight: 400; color: var(--muted); letter-spacing: 0; margin-top: 14px; }
+  .lede { max-width: 640px; font-size: 20px; color: var(--muted); margin: 22px 0 0; }
+  nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+  .btn { display: inline-block; padding: 10px 18px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; font-weight: 500; font-size: 15px; }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .btn:hover { border-color: var(--accent); }
+  section { padding: 64px 0; border-bottom: 1px solid var(--line); }
+  h2 { font: 600 32px/1.15 Fraunces, Georgia, serif; margin: 0 0 6px; }
+  .section-sub { color: var(--muted); margin: 0 0 30px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin: 0 0 28px; }
+  .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+  .stat b { display: block; font: 600 32px/1 Fraunces, Georgia, serif; color: var(--accent); }
+  .stat span { color: var(--muted); font-size: 14px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 22px; text-decoration: none; display: flex; flex-direction: column; gap: 8px; transition: border-color .15s; }
+  a.card:hover { border-color: var(--accent); }
+  .card h3 { margin: 0; font-size: 18px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .tag { font-size: 12px; color: var(--accent); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  ul.clean { padding-left: 18px; margin: 0; color: var(--muted); }
+  ul.clean li { margin: 6px 0; }
+  ul.clean strong { color: var(--text); font-weight: 600; }
+  footer { padding: 40px 0 64px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="kicker">Producer · Songwriter · Builder</div>
+    <h1>Navii<span class="sub">Victor Navejar</span></h1>
+    <p class="lede">Grammy-winning record producer, songwriter, composer and DJ. These days I also build local-first AI tools, develop film and TV, and produce live events.</p>
+    <nav>
+      <a class="btn primary" href="#music">Music</a>
+      <a class="btn" href="#ai">AI projects</a>
+      <a class="btn" href="#film">Film &amp; TV</a>
+      <a class="btn" href="#events">Events</a>
+      <a class="btn" href="https://github.com/naviidaviimusic">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section id="music">
+  <div class="wrap">
+    <h2>Music</h2>
+    <p class="section-sub">15+ years in the industry. Plays 30+ instruments. Studios in Atlanta and Belize, often in LA.</p>
+    <div class="stats">
+      <div class="stat"><b>2</b><span>Grammy Awards</span></div>
+      <div class="stat"><b>12</b><span>Billboard awards</span></div>
+      <div class="stat"><b>16</b><span>Stellar Awards</span></div>
+      <div class="stat"><b>28</b><span>BMI awards</span></div>
+    </div>
+    <ul class="clean">
+      <li><strong>"Intentional"</strong>: Travis Greene, <em>The Hill</em>. Produced and written by Navii. 2× Grammy winner, #1 on Billboard for 36 weeks, among the longest-running gospel #1s ever.</li>
+      <li>Also Dove, Soul Train and BET awards, plus Emmy nominations.</li>
+      <li>Has worked with Mary J. Blige, Jill Scott, Beyoncé, Anthony Hamilton, Prince Royce, Ty Dolla $ign, DJ Snake and PnB Rock.</li>
+      <li>Toured for nearly two years as an opening act for Demi Lovato.</li>
+      <li>Today: developing artists, building catalogs, and making music for the old school and the new.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="ai">
+  <div class="wrap">
+    <h2>Local AI</h2>
+    <p class="section-sub">I run a fully offline AI system on one Mac: 100+ scheduled agents, a multi-model council and a voice assistant, at zero cloud cost. These pieces are open source.</p>
+    <div class="cards">
+      <a class="card" href="https://github.com/naviidaviimusic/jarvis">
+        <span class="tag">Voice assistant</span>
+        <h3>jarvis</h3>
+        <p>Voice-first Mac assistant that keeps working offline: Ollama brain, local Whisper wake word, Piper British voice, and Mac control.</p>
+      </a>
+      <a class="card" href="https://github.com/naviidaviimusic/ollama-council">
+        <span class="tag">LLM reliability</span>
+        <h3>ollama-council</h3>
+        <p>Two local models cross-check each other and a third breaks ties. Agreement is judged by meaning, with a FIFO queue and secret redaction.</p>
+      </a>
+      <a class="card" href="https://github.com/naviidaviimusic/triple-check">
+        <span class="tag">Grounding</span>
+        <h3>triple-check</h3>
+        <p>Stops local LLMs from making up numbers. Python does the math, two experts explain it, and a different model verifies every figure.</p>
+      </a>
+      <a class="card" href="https://github.com/naviidaviimusic/launchd-doctor">
+        <span class="tag">macOS tooling</span>
+        <h3>launchd-doctor</h3>
+        <p>Finds and fixes the LaunchAgent bugs that fail silently, and pauses agents that keep failing with a circuit breaker.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="film">
+  <div class="wrap">
+    <h2>Film &amp; TV</h2>
+    <p class="section-sub">Documentaries and scripted series in development. More soon.</p>
+  </div>
+</section>
+
+<section id="events">
+  <div class="wrap">
+    <h2>Events</h2>
+    <div class="cards">
+      <div class="card">
+        <span class="tag">Invite-only</span>
+        <h3>NEXUS</h3>
+        <p>An invite-only event experience, with its own guest-list and sponsor platform.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Victor Navejar · <a href="https://github.com/naviidaviimusic">github.com/naviidaviimusic</a></div>
+</footer>
+</body>
+</html>
